@@ -1,0 +1,718 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Project website">
+    <meta name="author" content="Anonymous>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <title>DreamJourney</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/project.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript">
+        var sc_project = 12946113;
+        var sc_invisible = 1;
+        var sc_security = "1f228505"; 
+    </script>
+    <script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async></script>
+    <noscript>
+        <div class="statcounter"><a title="Web Analytics
+            Made Easy - Statcounter" href="https://statcounter.com/" target="_blank"><img class="statcounter"
+                    src="https://c.statcounter.com/12946113/0/1f228505/1/" alt="Web Analytics Made Easy - Statcounter"
+                    referrerPolicy="no-referrer-when-downgrade"></a></div>
+    </noscript>
+
+</head>
+
+<style>
+    .arrow {
+        border: solid black;
+        border-width: 0 4px 4px 0;
+
+        position: absolute;
+        top: 50%;
+
+        width: 20px;
+        height: 20px;
+        -webkit-transform: translate(0, -50%);
+        -ms-transform: translate(0, -50%);
+        transform: translate(0, -50%);
+        cursor: pointer;
+    }
+
+    .right {
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        right: -25px;
+    }
+
+    .left {
+        transform: rotate(135deg);
+        -webkit-transform: rotate(135deg);
+        left: -25px;
+    }
+
+    .nav-item img {
+        max-width: 100%;
+         
+        height: auto;
+        display: block;
+    }
+
+    .nav-item p {
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        line-height: 1.5rem;
+        font-size: 1.2rem;
+        color: black;
+    }
+
+    .anywhere-item {
+        align-content: center;
+    }
+
+    .anywhere-item video {
+        max-width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .anywhere-item p {
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        line-height: 1.5rem;
+        font-size: 1.2rem;
+        color: black;
+    }
+
+    .anywhere-container {
+        display: grid !important;
+        grid-template-columns: 50%;
+        grid-template-rows: 1fr;
+        gap: 0% 1%;
+        justify-content: center;
+    }
+
+    .everywhere-container {
+        display: grid !important;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: 1fr;
+        gap: 0% 1%;
+        justify-content: center;
+    }
+
+    .everywhere-container-2 {
+        display: grid !important;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: 1fr 1fr;
+        gap: 0% 1%;
+        justify-content: center;
+    }
+
+    .everywhere-item {
+        justify-content: center;
+        align-items: center;
+        display: block;
+    }
+
+    .everywhere-item video {
+        width: 100%;
+    }
+
+    .everywhere-item p {
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        line-height: 1.5rem;
+        font-size: 1.2rem;
+        color: black;
+    }
+
+    .teaser-item {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+</style>
+
+<body>
+    <section>
+        <div class="container">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-8 col-sm-12 mt-2">
+                        <img src="logo.png" alt="WonderJourney:" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-m4" id="title">
+                <p class="col text-center text-title">
+                    Perpetual 4D View Generation with <br> Video Diffusion Models
+                </p>
+            </div>
+
+            <div class="row" id="venue">
+                <p class="col text-center text-venue">
+
+                </p>
+              </div>
+
+
+            
+            <div class="row" id="authors">
+                <div class="col-md-12 text-center mt-2 text-author">
+                    <ul class="list-inline">
+
+                        <li class="list-inline-item mx-2">
+                                <p>Anonymous authors</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+
+
+        </div>
+    </section>
+
+
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col my-3">
+                    <p class="text-header">
+                        Generated “Dream Journeys”
+                    </p>
+                    <div class="teaser-item">
+                        <p class="body-text">
+                            Given a single input image, our method can perpetually generate a series of diverse
+yet coherent video clips depicting spatial transitions of the 3D scene and object dynamics in the scene. Click the images below to switch between different "dream journeys".
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container slider-for-going-anywhere">
+
+            <div class="container anywhere-container">
+                <div class="anywhere-item">
+                    <video muted controls loop playsinline webkit-playsinline>
+                        <source src="journeys_bidir/56_village/input_video.mp4" type="video/mp4">
+                    </video>
+                    <p></p>
+                </div>
+            </div>
+
+
+            <div class="container anywhere-container">
+                <div class="anywhere-item">
+                    <video muted controls loop playsinline webkit-playsinline>
+                        <source src="journeys_bidir/23_pirate_2/input_video.mp4" type="video/mp4">
+                    </video>
+                    <p></p>
+                </div>
+            </div>
+
+            <div class="container anywhere-container">
+                <div class="anywhere-item">
+                    <video muted controls loop playsinline webkit-playsinline>
+                        <source src="journeys_bidir/59_woodland_monet/input_video.mp4" type="video/mp4">
+                    </video>
+                    <p></p>
+                </div>
+            </div>
+
+            <div class="container anywhere-container">
+                <div class="anywhere-item">
+                    <video muted controls loop playsinline webkit-playsinline>
+                        <source src="journeys_bidir/07_city_monet_2/input_video.mp4" type="video/mp4">
+                    </video>
+                    <p></p>
+                </div>
+            </div>
+            <div class="container anywhere-container">
+                <div class="anywhere-item">
+                    <video muted controls loop playsinline webkit-playsinline>
+                        <source src="journeys_bidir/08_city_monet_3/input_video.mp4" type="video/mp4">
+                    </video>
+                    <p></p>
+                </div>
+            </div>
+
+            <!-- <div class="container anywhere-container">
+                <div class="anywhere-item">
+                    <video muted controls loop playsinline webkit-playsinline>
+                        <source src="journeys_bidir/03_ancient/input_video.mp4" type="video/mp4">
+                    </video>
+                    <p></p>
+                </div>
+            </div> -->
+
+
+
+
+
+            <div class="container anywhere-container">
+                <div class="anywhere-item">
+                    <video muted controls loop playsinline webkit-playsinline>
+                        <source src="journeys_bidir/55_ukiyo-e_2/input_video.mp4" type="video/mp4">
+                    </video>
+                    <p></p>
+                </div>
+            </div>
+            <div class="container anywhere-container">
+                <div class="anywhere-item">
+                    <video muted controls loop playsinline webkit-playsinline>
+                        <source src="journeys_bidir/01_alice_2/input_video.mp4" type="video/mp4">
+                    </video>
+                    <p></p>
+                </div>
+            </div>
+
+
+
+            <!-- <div class="container anywhere-container">
+                <div class="anywhere-item">
+                    <video muted controls loop playsinline webkit-playsinline>
+                        <source src="journeys_bidir/11_cyberpunk_2/input_video.mp4" type="video/mp4">
+                    </video>
+                    <p></p>
+                </div>
+            </div> -->
+            <!-- <div class="container anywhere-container">
+                <div class="anywhere-item">
+                    <video muted controls loop playsinline webkit-playsinline>
+                        <source src="journeys_bidir/13_forbidden/input_video.mp4" type="video/mp4">
+                    </video>
+                    <p></p>
+                </div>
+            </div> -->
+
+
+
+            <div class="container anywhere-container">
+                <div class="anywhere-item">
+                    <video muted controls loop playsinline webkit-playsinline>
+                        <source src="journeys_bidir/19_ink_village/input_video.mp4" type="video/mp4">
+                    </video>
+                    <p></p>
+                </div>
+            </div>
+
+
+
+
+            <!-- <div class="container anywhere-container">
+                <div class="anywhere-item">
+                    <video muted controls loop playsinline webkit-playsinline>
+                        <source src="journeys_bidir/60_poem_jiangxue/input_video.mp4" type="video/mp4">
+                    </video>
+                    <p></p>
+                </div>
+            </div> -->
+            <!-- <div class="container anywhere-container">
+                <div class="anywhere-item">
+                    <video muted controls loop playsinline webkit-playsinline>
+                        <source src="journeys_bidir/72_poem_snowy_evening/input_video.mp4" type="video/mp4">
+                    </video>
+                    <p></p>
+                </div>
+            </div> -->
+            <!-- <div class="container anywhere-container">
+                <div class="anywhere-item">
+                    <video muted controls loop playsinline webkit-playsinline>
+                        <source src="journeys_bidir/24_real_aurora/input_video.mp4" type="video/mp4">
+                    </video>
+                    <p></p>
+                </div>
+            </div> -->
+            <!-- <div class="container anywhere-container">
+                <div class="anywhere-item">
+                    <video muted controls loop playsinline webkit-playsinline>
+                        <source src="journeys_bidir/25_real_beach/input_video.mp4" type="video/mp4">
+                    </video>
+                    <p></p>
+                </div>
+            </div> -->
+            <div class="container anywhere-container">
+                <div class="anywhere-item">
+                    <video muted controls loop playsinline webkit-playsinline>
+                        <source src="journeys_bidir/37_real_kids/input_video.mp4" type="video/mp4">
+                    </video>
+                    <p></p>
+                </div>
+            </div>
+            <div class="container anywhere-container">
+                <div class="anywhere-item">
+                    <video muted controls loop playsinline webkit-playsinline>
+                        <source src="journeys_bidir/38_real_lake/input_video.mp4" type="video/mp4">
+                    </video>
+                    <p></p>
+                </div>
+            </div>
+            <div class="container anywhere-container">
+                <div class="anywhere-item">
+                    <video muted controls loop playsinline webkit-playsinline>
+                        <source src="journeys_bidir/42_real_palace/input_video.mp4" type="video/mp4">
+                    </video>
+                    <p></p>
+                </div>
+            </div>
+            <!-- <div class="container anywhere-container">
+                <div class="anywhere-item">
+                    <video muted controls loop playsinline webkit-playsinline>
+                        <source src="journeys_bidir/49_real_westlake_3/input_video.mp4" type="video/mp4">
+                    </video>
+                    <p></p>
+                </div>
+            </div> -->
+            <!-- <div class="container anywhere-container">
+                <div class="anywhere-item">
+                    <video muted controls loop playsinline webkit-playsinline>
+                        <source src="journeys_bidir/69_story_walden/input_video.mp4" type="video/mp4">
+                    </video>
+                    <p></p>
+                </div>
+            </div> -->
+            <div class="container anywhere-container">
+                <div class="anywhere-item">
+                    <video muted controls loop playsinline webkit-playsinline>
+                        <source src="journeys_bidir/18_ink_temple/input_video.mp4" type="video/mp4">
+                    </video>
+                    <p></p>
+                </div>
+            </div>
+
+            
+
+
+
+        </div>
+
+        <div class="container slider-nav-going-anywhere">
+
+            <div class="container nav-item">
+                <img data-lazy="journeys_bidir/56_village/input_image.jpg">
+                <p>Input image</p>
+            </div>
+
+            
+            <div class="container nav-item">
+                <img data-lazy="journeys_bidir/23_pirate_2/input_image.jpg">
+                <p>Input image</p>
+            </div>
+
+            <!-- <div class="container nav-item">
+                <img data-lazy="journeys_bidir/03_ancient/input_image.jpg">
+                <p>Input image</p>
+            </div> -->
+
+            <div class="container nav-item">
+                <img data-lazy="journeys_bidir/59_woodland_monet/input_image.jpg">
+                <p>Input image</p>
+            </div>
+
+            <div class="container nav-item">
+                <img data-lazy="journeys_bidir/07_city_monet_2/input_image.jpg">
+                <p>Input image</p>
+            </div>
+            <div class="container nav-item">
+                <img data-lazy="journeys_bidir/08_city_monet_3/input_image.jpg">
+                <p>Input image</p>
+            </div>
+
+
+
+
+            <div class="container nav-item">
+                <img data-lazy="journeys_bidir/55_ukiyo-e_2/input_image.jpg">
+                <p>Input image</p>
+            </div>
+
+            <div class="container nav-item">
+                <img data-lazy="journeys_bidir/01_alice_2/input_image.jpg">
+                <p>Input image</p>
+            </div>
+
+
+            <!-- <div class="container nav-item">
+                <img data-lazy="journeys_bidir/11_cyberpunk_2/input_image.jpg">
+                <p>Input image</p>
+            </div> -->
+            <!-- <div class="container nav-item">
+                <img data-lazy="journeys_bidir/13_forbidden/input_image.jpg">
+                <p>Input image</p>
+            </div> -->
+
+
+
+            <div class="container nav-item">
+                <img data-lazy="journeys_bidir/19_ink_village/input_image.jpg">
+                <p>Input image</p>
+            </div>
+
+
+
+            <!-- <div class="container nav-item">
+                <img data-lazy="journeys_bidir/60_poem_jiangxue/input_image.jpg">
+                <p>Input image</p>
+            </div> -->
+            <!-- <div class="container nav-item">
+                <img data-lazy="journeys_bidir/72_poem_snowy_evening/input_image.jpg">
+                <p>Input image</p>
+            </div> -->
+            <!-- <div class="container nav-item">
+                <img data-lazy="journeys_bidir/24_real_aurora/input_image.jpg">
+                <p>Input image</p>
+            </div> -->
+            <!-- <div class="container nav-item">
+                <img data-lazy="journeys_bidir/25_real_beach/input_image.jpg">
+                <p>Input image</p>
+            </div> -->
+            <div class="container nav-item">
+                <img data-lazy="journeys_bidir/37_real_kids/input_image.jpg">
+                <p>Input image</p>
+            </div>
+            <div class="container nav-item">
+                <img data-lazy="journeys_bidir/38_real_lake/input_image.jpg">
+                <p>Input image</p>
+            </div>
+            <div class="container nav-item">
+                <img data-lazy="journeys_bidir/42_real_palace/input_image.jpg">
+                <p>Input image</p>
+            </div>
+            <!-- <div class="container nav-item">
+                <img data-lazy="journeys_bidir/49_real_westlake_3/input_image.jpg">
+                <p>Input image</p>
+            </div> -->
+            <!-- <div class="container nav-item">
+                <img data-lazy="journeys_bidir/69_story_walden/input_image.jpg">
+                <p>Input image</p>
+            </div> -->
+
+
+            <div class="container nav-item">
+                <img data-lazy="journeys_bidir/18_ink_temple/input_image.jpg">
+                <p>Input image</p>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col my-3">
+                    <p class="text-header">
+                        Spatial Transition Comparison with WonderJourney.
+                    </p>
+                    <div class="text-center mb-4">
+                        <video width="100%" controls>
+                            <source src="journeys_bidir/compareWonderJourney.mp4" type="video/mp4">
+                            <!-- Add additional <source> tags for different formats if necessary -->
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.slider-for-going-anywhere').on('beforeChange', function (event, slick, currentSlide, nextSlide) {
+                var video = $(slick.$slides[nextSlide]).find('video');
+                var videoSource = video.find('source[data-lazy]');
+                if (videoSource.length) {
+                    videoSource.attr('src', videoSource.data('lazy'));
+                    videoSource.removeAttr('data-lazy');
+                    video.get(0).load();
+                }
+            });
+            $('.slider-nav-going-anywhere').slick({
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                asNavFor: '.slider-for-going-anywhere',
+                dots: true,
+                centerMode: true,
+                centerPadding: '10%',
+                focusOnSelect: true,
+                nextArrow: '<div class="arrow right"></div>',
+                prevArrow: '<div class="arrow left"></div>',
+            });
+            $('.slider-for-going-anywhere').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: false,
+                asNavFor: '.slider-nav-going-anywhere',
+                autoplay: false,
+                speed: 300,
+                autoplaySpeed: 19000,
+            });
+
+            $('.slider-for-longjourney').on('beforeChange', function (event, slick, currentSlide, nextSlide) {
+                var video = $(slick.$slides[nextSlide]).find('video');
+                var videoSource = video.find('source[data-lazy]');
+                if (videoSource.length) {
+                    videoSource.attr('src', videoSource.data('lazy'));
+                    videoSource.removeAttr('data-lazy');
+                    video.get(0).load();
+                }
+            });
+            $('.slider-nav-longjourney').slick({
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                asNavFor: '.slider-for-longjourney',
+                dots: true,
+                centerMode: true,
+                centerPadding: '10%',
+                focusOnSelect: true,
+                nextArrow: '<div class="arrow right"></div>',
+                prevArrow: '<div class="arrow left"></div>',
+            });
+            $('.slider-for-longjourney').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: false,
+                asNavFor: '.slider-nav-longjourney',
+                autoplay: false,
+                speed: 300,
+                autoplaySpeed: 72000,
+            });
+
+            $('.slider-for-going-everywhere').on('beforeChange', function (event, slick, currentSlide, nextSlide) {
+                
+                var videos = $(slick.$slides[nextSlide]).find('video');
+
+                videos.each(function () {
+                    var video = $(this);
+                    var videoSource = video.find('source[data-lazy]');
+
+                    
+                    if (videoSource.length) {
+                        videoSource.attr('src', videoSource.data('lazy'));
+                        videoSource.removeAttr('data-lazy');
+                        video.get(0).load();
+                    }
+                });
+            });
+            $('.slider-nav-going-everywhere').slick({
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                asNavFor: '.slider-for-going-everywhere',
+                dots: true,
+                centerMode: true,
+                centerPadding: '10%',
+                focusOnSelect: true,
+                nextArrow: '<div class="arrow right"></div>',
+                prevArrow: '<div class="arrow left"></div>',
+            });
+            $('.slider-for-going-everywhere').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: false,
+                asNavFor: '.slider-nav-going-everywhere',
+                autoplay: false,
+                speed: 0,
+                autoplaySpeed: 19000,
+            });
+
+            $('.slider-for-controlled').on('beforeChange', function (event, slick, currentSlide, nextSlide) {
+                var video = $(slick.$slides[nextSlide]).find('video');
+                var videoSource = video.find('source[data-lazy]');
+                if (videoSource.length) {
+                    videoSource.attr('src', videoSource.data('lazy'));
+                    videoSource.removeAttr('data-lazy');
+                    video.get(0).load();
+                }
+            });
+            $('.slider-nav-controlled').slick({
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                asNavFor: '.slider-for-controlled',
+                dots: true,
+                centerMode: true,
+                centerPadding: '10%',
+                focusOnSelect: true,
+                nextArrow: '<div class="arrow right"></div>',
+                prevArrow: '<div class="arrow left"></div>',
+            });
+            $('.slider-for-controlled').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: false,
+                asNavFor: '.slider-nav-controlled',
+                autoplay: false,
+                speed: 300,
+                autoplaySpeed: 19000,
+            });
+        });
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const videos = document.querySelectorAll('video[muted][loop]');
+
+            const options = {
+                root: null, 
+                threshold: 0.5 
+            };
+
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.play();
+                    } else {
+                        entry.target.pause();
+                        entry.target.currentTime = 0; 
+                    }
+                });
+            }, options);
+
+            videos.forEach(video => {
+                observer.observe(video);
+            });
+        });
+
+    </script>
+
+
+</body>
+
+</html>
